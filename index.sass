@@ -1,0 +1,32 @@
+body
+	cursor: none
+	background-color: #a039ff
+	.container
+		max-width: 1400px
+		margin: 0 auto
+		display: grid
+		grid-template-columns: 1fr 1fr
+
+		.left, .right
+			padding: 60px
+		.left
+			font-family: 'Roboto Mono', monospace
+			color: #fefefe
+			line-height: 20px
+			padding-top: 126px
+			h1
+				font-size: 49px
+			p
+				font-size: 13px
+		.right
+			position: relative
+			img:nth-child(1)
+				width: 100%
+				box-shadow: 0 11px 54px 0 rgba(0,0,0,0.66)
+				border-radius: 10px
+			img:nth-child(2)
+				width: 76%
+				position: absolute
+				left: -57%
+				bottom: 8px
+				z-index: -1
